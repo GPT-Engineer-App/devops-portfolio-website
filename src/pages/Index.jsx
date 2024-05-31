@@ -26,6 +26,17 @@ const Home = () => (
   <VStack spacing={4}>
     <Text fontSize="2xl">Welcome to My DevOps Portfolio</Text>
     <Text>Explore my work and get to know more about me.</Text>
+    <Text fontSize="lg" mt={4}>
+      I am a seasoned DevOps engineer with over 5 years of experience in automating and optimizing mission-critical deployments in AWS, CI/CD, and monitoring systems. My expertise lies in:
+    </Text>
+    <Text>- Building and maintaining CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI.</Text>
+    <Text>- Managing cloud infrastructure with AWS, including EC2, S3, RDS, and Lambda.</Text>
+    <Text>- Implementing containerization and orchestration using Docker and Kubernetes.</Text>
+    <Text>- Monitoring and logging with Prometheus, Grafana, and ELK stack.</Text>
+    <Text>- Ensuring security and compliance through automated testing and infrastructure as code (IaC) with Terraform and CloudFormation.</Text>
+    <Text fontSize="lg" mt={4}>
+      I am passionate about continuous learning and staying up-to-date with the latest industry trends and technologies. My goal is to streamline operations and enhance the efficiency of development and deployment processes.
+    </Text>
   </VStack>
 );
 
